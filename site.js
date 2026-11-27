@@ -12,7 +12,7 @@ const CONFIG = {
     { title: "How we work", text: "Describe what makes your approach different." }
   ],
   groups: [
-    { title: "CLOR", subtitle: "CL (Clarance Studios) OR (Oreo Studios) is a muti studio.", link: "https://example.com", logo: "https://tr.rbxcdn.com/180DAY-d018cd4377107a91c0bafec33270bafd/150/150/Image/Webp/noFilter", banner: "https://tr.rbxcdn.com/180DAY-b319c911086747a2c3cdc0fb4f57d766/1440/456/Image/Png/noFilter" },
+    { title: "CLOR", subtitle: "CL (Clarance Studios) OR (Oreo Studios) is a muti studio.", link: "https://example.com", logo: "https://tr.rbxcdn.com/180DAY-d018cd4377107a91c0bafec33270bafd/150/150/Images/Im[...].png", banner: "" },
     { title: "Onestud", subtitle: "OneStud is a roblox airline.", link: "https://onestud.cc.cd/", logo: "images/1studshort.jpg", banner: "images/plen.jpg" },
     { title: "Group Three", subtitle: "A short description of what this group does and who it is for.", link: "https://example.com", logo: "", banner: "" }
   ],
@@ -84,7 +84,7 @@ if (footer) footer.innerHTML = `© ${new Date().getFullYear()} ${CONFIG.company}
       star.x = (star.x + width + 20) % (width + 20);
       star.y = (star.y + height + 20) % (height + 20);
       context.globalAlpha = .45 + .55 * Math.abs(Math.sin(star.phase));
-      context.fillStyle = star.gold ? "#68a9ed" : "#fff";
+      context.fillStyle = star.gold ? "#004aad" : "#fff";
       if (star.gold) drawSpark(star.x, star.y, star.r * 2.5, star.phase * .3);
       else { context.beginPath(); context.arc(star.x, star.y, star.r, 0, 6.283); context.fill(); }
     }
