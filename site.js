@@ -14,7 +14,7 @@ const CONFIG = {
   groups: [
     { title: "CLOR", subtitle: "CL (Clarance Studios) OR (Oreo Studios) is a muti studio.", link: "https://example.com", logo: "https://tr.rbxcdn.com/180DAY-d018cd4377107a91c0bafec33270bafd/150/150/Images/Im[...].png", banner: "" },
     { title: "Onestud", subtitle: "OneStud is a roblox airline.", link: "https://onestud.cc.cd/", logo: "images/1studshort.jpg", banner: "images/plen.jpg" },
-    { title: "Group Three", subtitle: "A short description of what this group does and who it is for.", link: "https://example.com", logo: "", banner: "" }
+    { title: "Starcat", subtitle: "Starcat  is one of the ownership Groups we own.", link: "https://starcat.cc.cd", logo: "images/starlogo.png", banner: "images/starbanner.png" }
   ],
   owners: [
     { name: "William Lumen", role: "CEO", photo: "images/owner1.jpg", bio: "William is the heart of this Company" },
