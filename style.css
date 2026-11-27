@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap");
-:root{--night:#071427;--deep:#124a8c;--ink:#f1f6ff;--mute:#a7bbd6;--accent:#68a9ed;--primary:#1871cd;--head:"Outfit","Inter",system-ui,sans-serif}
+:root{--night:#071427;--deep:#124a8c;--ink:#f1f6ff;--mute:#a7bbd6;--accent:#004aad;--primary:#1871cd;--head:"Outfit","Inter",system-ui,sans-serif}
 *{box-sizing:border-box;margin:0}
 body{font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);line-height:1.6;min-height:100vh;overflow-x:hidden;
 background:radial-gradient(1100px 650px at 75% -10%,var(--deep),transparent 65%),var(--night);background-attachment:fixed}
