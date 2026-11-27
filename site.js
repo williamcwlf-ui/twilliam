@@ -1,7 +1,7 @@
 // ===== EDIT THIS PART =====
 const CONFIG = {
-  company: "Starcat",
-  strapText: "Starcat", // text printed on the lanyard strap
+  company: "Team William",
+  strapText: "Team William", // text printed on the lanyard strap
   logo: "images/logo.png",
   tagline: "A UK Company.",
   about: "We do it cause we can.",
