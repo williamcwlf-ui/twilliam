@@ -19,7 +19,7 @@ const CONFIG = {
   owners: [
     { name: "William Lumen", role: "CEO", photo: "images/owner1.jpg", bio: "William is the heart of this Company" },
     { name: "Noah", role: "Chief Managing Officer", photo: "https://cdn.discordapp.com/avatars/1451553711515111526/564448e76e332f0a6bfb5e94bbbabc0d.webp?size=1024", bio: "Noah has been here since the Start." },
-    { name: "Could be You", role: "Co-owner", photo: "", bio: "BIO" },
+    { name: "Floxey", role: "Chief Administrator Officer", photo: "https://cdn.discordapp.com/avatars/1515677843252580443/39a858ec710d3efdc548c00047dd1042.webp?size=1024", bio: "Floxey came to me with the idea to start a shop." },
     { name: "Owner Four", role: "Co-owner", photo: "images/owner4.jpg", bio: "A short line about this owner." }
   ]
 };
