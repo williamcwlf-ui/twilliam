@@ -1,0 +1,11 @@
+defaults:
+  - scope:
+      path: "groups.html"
+      type: pages
+    values:
+      permalink: /groups
+  - scope:
+      path: "ownership.html"
+      type: pages
+    values:
+      permalink: /ownership

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<header><nav aria-label="Main"></nav></header>
+<main>
+  <section class="hero">
+    <h1 id="name"></h1>
+    <p id="about"></p>
+    <div class="cta">
+      <a class="btn" href="ownership">Meet the owners</a>
+      <a class="btn ghost" id="mail">Email us</a>
+    </div>
+  </section>
+  <section class="list" id="services"></section>
+</main>
+<footer></footer>
+<script src="site.js"></script>
+<script>
+  document.getElementById("name").textContent = CONFIG.company;
+  document.getElementById("about").textContent = CONFIG.tagline + " " + CONFIG.about;
+  document.getElementById("mail").href = "mailto:" + CONFIG.email;
+  document.getElementById("services").innerHTML = CONFIG.services
+    .map(s => `<div><h3>${s.title}</h3><p>${s.text}</p></div>`).join("");
+</script>
+</body>
+</html>

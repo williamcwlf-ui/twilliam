@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap");
+:root{--night:#071427;--deep:#124a8c;--ink:#f1f6ff;--mute:#a7bbd6;--accent:#68a9ed;--primary:#1871cd;--head:"Outfit","Inter",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);line-height:1.6;min-height:100vh;overflow-x:hidden;
+background:radial-gradient(1100px 650px at 75% -10%,var(--deep),transparent 65%),var(--night);background-attachment:fixed}
+#stars{position:fixed;left:0;top:0;width:100%;height:100%;z-index:0;pointer-events:none}
+header{position:sticky;top:0;z-index:10;background:rgba(7,20,39,.72);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid #ffffff1a}
+main,footer{position:relative;z-index:1}
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 6vw}
+.logo{font:700 1.35rem var(--head);color:var(--ink);text-decoration:none}
+nav ul{display:flex;gap:26px;list-style:none;padding:0}
+nav a:not(.logo){color:var(--mute);text-decoration:none;font-weight:600;padding:4px 0;border-bottom:2px solid transparent}
+nav a:not(.logo):hover,nav a.on{color:var(--ink);border-color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.hero{min-height:68vh;display:grid;place-content:center;gap:20px;padding:60px 6vw}
+.hero h1{font:700 clamp(2.6rem,8vw,5.6rem)/1.02 var(--head);max-width:12ch}
+.hero p{max-width:52ch;color:var(--mute);font-size:1.15rem}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;background:var(--primary);color:#fff;font-weight:700;text-decoration:none}
+.btn.ghost{background:none;color:var(--ink);border:1px solid #ffffff55}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:36px;padding:10px 6vw 80px;max-width:1100px}
+.list div{border-top:2px solid var(--accent);padding-top:14px}
+.list h3{font:700 1.3rem var(--head);margin-bottom:6px}
+.list p{color:var(--mute)}
+footer{padding:28px 6vw;color:var(--mute);border-top:1px solid #ffffff1a}
+footer a{color:var(--accent)}
+.title{padding:34px 6vw 0}
+.title h1{font:700 clamp(2.2rem,6vw,3.6rem)/1.1 var(--head)}
+.title p{color:var(--mute);margin-top:6px}
+@media(max-width:560px){nav{flex-direction:column}}
