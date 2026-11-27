@@ -2,7 +2,7 @@
 const CONFIG = {
   company: "Team William",
   strapText: "Team William", // text printed on the lanyard strap
-  logo: "images/logo.png",
+  logo: "images/ilogo.png",
   tagline: "A UK Company.",
   about: "We do it cause we can.",
   email: "hello@yourcompany.com",
